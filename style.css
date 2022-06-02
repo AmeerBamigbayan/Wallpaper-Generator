@@ -1,3 +1,9 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap);
+
+@font-face {
+    font-family: 'BR-Firma';
+    src: url(BR-Firma.otf);
+}
 *{
     margin: 0;
     padding: 0;   
@@ -48,6 +54,7 @@ h2{
     margin: 0 auto;
     text-align: center;
     padding-top: 50px;
+    font-weight: 800;
 }
 
 .btn{
@@ -77,5 +84,27 @@ img{
     position: relative;
     /*top: -300px;
     transform: scale(0.3);*/
-    
   }
+
+  
+footer {
+    
+    color: rgb(214, 214, 214);
+    font-size: 14px;
+    margin-bottom: 1px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-weight: 600;
+    z-index: 999;
+    margin-top: 50px;
+    
+}
+
+
+
+
+footer p a span{
+    color: #fff;
+    text-decoration: none;
+}
