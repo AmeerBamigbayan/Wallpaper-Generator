@@ -57,7 +57,7 @@ h2{
     font-weight: 800;
 }
 
-.btn{
+.btn, #download{
     text-decoration: none;
     color: #000;
     font-size: 18px;

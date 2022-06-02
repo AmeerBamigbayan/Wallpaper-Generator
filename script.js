@@ -9,3 +9,5 @@ image_array = [
     selected_image = image_array[random_index]
     document.getElementById('wallpaper').src = `./img/${selected_image}`
   }
+
+
