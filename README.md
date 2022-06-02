@@ -1,2 +1,2 @@
-# Cat Generator
+# Wallpaper Generator
  
