@@ -10,7 +10,7 @@ body{
     font-weight: 400;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
+    /*overflow: hidden;*/
     background-color: #7857fe;
     align-items: center;
 }
@@ -69,13 +69,13 @@ h2{
 }
 
 img{
-    width: 640px;
-    height: 960px;
-    border-radius: 50px;
-    margin: 0 auto;
+    width: 340px;
+    height: 560px;
+    border-radius: 20px;
+    margin: 20px auto;
     display: block;
     position: relative;
-    top: -300px;
-    transform: scale(0.3);
+    /*top: -300px;
+    transform: scale(0.3);*/
     
   }
