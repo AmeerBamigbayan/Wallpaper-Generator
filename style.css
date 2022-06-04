@@ -101,30 +101,34 @@ footer {
     
 }
 
+.fas{
+    color: #fff;
+    margin-right: 10px;
+}
 
 #download{
     text-decoration: none;
-    color: #000;
-    font-size: 18px;
-    font-weight: 400;
-    padding: 10px 30px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 30px;
     border: 1px solid #fff;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 0 auto;
     display: block;
-    width: 200px;
+    width: 250px;
     margin-top: 30px;
     text-align: center;
-    background-color: #fff;
+    background-color: #0014f3;
     transition: 0.5;
     cursor: pointer;
   }
   
   #download:hover{
     transition: 0.05s;
-    background-color: #D90429;
+    background-color: #7857fe;
     transform: rotateZ(-10deg);
-    box-shadow: 0 0 30px -10px #D90429;
+    box-shadow: 0 0 30px -10px #7857fe;
   }
   
   #download:active{
