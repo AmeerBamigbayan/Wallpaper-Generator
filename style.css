@@ -152,12 +152,14 @@ footer p a{
 @media(max-width:1080px){
 
     body{
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 20px;
+        background-color: #3e3e3e;
+    }
+    
+    .container:after{
+        display: none;
     }
     h2{
-        font-size: 25px;
+        font-size: 30px;
         padding-right: 0;
         padding-left: 0;
     }
