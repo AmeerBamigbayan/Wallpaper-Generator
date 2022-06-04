@@ -61,10 +61,10 @@ h2{
     text-decoration: none;
     color: #000;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
     padding: 10px 30px;
     border: 1px solid #fff;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 0 auto;
     display: block;
     width: 200px;
@@ -73,6 +73,11 @@ h2{
     background-color: #fff;
     transition: 0.5;
     cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #7857fe;
+    color: fff;
 }
 
 img{
@@ -89,8 +94,8 @@ img{
   
 footer {
     
-    color: rgb(214, 214, 214);
-    font-size: 14px;
+    color: #7857fe;
+    font-size: 18px;
     margin-bottom: 1px;
     left: 0;
     right: 0;
@@ -98,9 +103,14 @@ footer {
     font-weight: 600;
     z-index: 999;
     margin-top: 50px;
+    text-decoration: none;
     
 }
 
+footer p a{
+    color: #fff;
+    text-decoration: none;
+}
 .fas{
     color: #fff;
     margin-right: 10px;
@@ -138,7 +148,3 @@ footer {
   }
   
 
-footer p a span{
-    color: #fff;
-    text-decoration: none;
-}
