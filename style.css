@@ -138,13 +138,13 @@ footer p a{
   #download:hover{
     transition: 0.05s;
     background-color: #7857fe;
-    transform: rotateZ(-10deg);
+    transform: rotateZ(-5deg);
     box-shadow: 0 0 30px -10px #7857fe;
   }
   
   #download:active{
     transform: translateY(20px);
-    transform: rotateZ(10deg);
+    transform: rotateZ(5deg);
   
   }
   
