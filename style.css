@@ -75,9 +75,13 @@ h2{
     cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover, .btn i:hover{
     background-color: #7857fe;
     color: #fff;
+}
+
+.btn i{
+    color: #000;
 }
 
 img{
