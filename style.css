@@ -159,14 +159,20 @@ footer p a{
         display: none;
     }
     h2{
-        font-size: 30px;
+        font-size: 27px;
         padding-right: 0;
         padding-left: 0;
         width: 100%;
+        padding-top: 10px;
     }
 
     #download{
-        font-size: 18px; 
+        font-size: 17px; 
+        width: 230px;
+    }
+    img{
+        width: 300px;
+    }
     }
 
     footer{
