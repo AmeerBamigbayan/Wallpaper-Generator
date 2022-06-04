@@ -147,4 +147,18 @@ footer p a{
   
   }
   
+/* Mobile Responsiveness */
 
+@media(max-width:1080px){
+
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    h2{
+        font-size: 25px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
