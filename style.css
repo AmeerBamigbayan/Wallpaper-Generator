@@ -165,5 +165,11 @@ footer p a{
         width: 100%;
     }
 
-    #
+    #download{
+        font-size: 18px; 
+    }
+
+    footer{
+        font-size: 16px;
+    }
 }
