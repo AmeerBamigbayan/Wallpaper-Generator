@@ -1,5 +1,20 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap);
 
+body [data-aos-delay='1000'][data-aos].aos-animate,
+[data-aos][data-aos][data-aos-delay='1000'].aos-animate {
+    transition-delay: 1s;
+}
+body [data-aos-delay='2000'][data-aos].aos-animate,
+[data-aos][data-aos][data-aos-delay='2000'].aos-animate {
+    transition-delay: 2s;
+}
+body [data-aos-delay='3000'][data-aos].aos-animate,
+[data-aos][data-aos][data-aos-delay='3000'].aos-animate {
+    transition-delay: 3s;
+}
+
+
+
 @font-face {
     font-family: 'BR-Firma';
     src: url(BR-Firma.otf);
@@ -19,6 +34,7 @@ body{
     /*overflow: hidden;*/
     background-color: #7857fe;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .container{
@@ -219,6 +235,82 @@ h4{
     color: #fff;
 }
 
+.anime{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 60px 30px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    margin-top: 30px;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/anime.jpg);
+    background-size:cover;
+    transition: 0.5;
+    cursor: pointer;
+}
+
+
+.anime:active{
+    background: #7857fe;
+    color: #fff;
+}
+
+.music{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 60px 30px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    margin-top: 30px;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/music.jpeg);
+    background-size:cover;
+    transition: 0.5;
+    cursor: pointer;
+}
+
+
+.music:active{
+    background: #7857fe;
+    color: #fff;
+}
+
+.simpsons{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 60px 30px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    margin-top: 30px;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/simpsons.jpg);
+    background-size:cover;
+    transition: 0.5;
+    cursor: pointer;
+}
+
+
+.simpsons:active{
+    background: #7857fe;
+    color: #fff;
+}
+
+
 
 .categories{
     display: flex;
@@ -304,6 +396,11 @@ footer p a{
     
     .container:after{
         display: none;
+    }
+    h4{
+        font-size: 15px;
+        width: 100%;
+        padding-top:5px;
     }
     h2{
         font-size: 27px;

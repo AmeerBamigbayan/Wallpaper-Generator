@@ -10,21 +10,29 @@
     </script>
     <script src="https://kit.fontawesome.com/792e6d1a70.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <div class="container">
-        <h4>LET'S TALK ABOUT YOUR PREFERENCES</h4>
-        <h2>What type of wallpaper do you like?</h2>
+        <h4  data-aos="fade-left"  data-aos-duration="1000">LET'S TALK ABOUT YOUR PREFERENCES</h4>
+        <h2 data-aos="zoom-in"  data-aos-duration="1000" data-aos-delay="1000">What type of wallpaper do you like?</h2>
+        <div data-aos="zoom-in"  data-aos-duration="1000" data-aos-delay="2000" class="main">
         <div class="categories">
         <div class="neon">Neon</div>
         <div class="black">Black</div>
         <div class="animal">Animal</div>
+    </div>
+     <div class="categories">
+        <div class="anime">Anime</div>
+        <div class="music">Music</div>
+        <div class="simpsons">Simpsons</div>
     </div>
     <div class="categories">
         <div class="places">Places</div>
         <div class="cars">Car</div>
         <div class="gaming">Gaming</div>
     </div>
+</div>
 
             <!----<img id="wallpaper"></img> 
             <a download="wallpaper.jpg" onload = "autoClick();" id="download" target="_blank" ><i class="fas fa-download"></i>Download Wallpaper</a>----->
@@ -57,5 +65,9 @@
         }
         </script>---->
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html> 
