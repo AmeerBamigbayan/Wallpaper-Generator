@@ -114,7 +114,7 @@ h4{
 }
 
 
-.cars:active{
+.cars:active, .cars:hover{
     background: #7857fe;
     color: #fff;
 }
@@ -139,7 +139,7 @@ h4{
 }
 
 
-.black:active{
+.black:active , .black:hover{
     background: #7857fe;
     color: #fff;
 }
@@ -165,7 +165,7 @@ h4{
 }
 
 
-.animal:active{
+.animal:active , .animal:hover{
     background: #7857fe;
     color: #fff;
 }
@@ -191,7 +191,7 @@ h4{
 }
 
 
-.places:active{
+.places:active , .places:hover{
     background: #7857fe;
     color: #fff;
 }
@@ -216,7 +216,7 @@ h4{
 }
 
 
-.neon:active{
+.neon:active , .neon:hover{
     background: #7857fe;
     color: #fff;
 }
@@ -241,7 +241,7 @@ h4{
 }
 
 
-.gaming:active{
+.gaming:active , .gaming:hover{
     background: #7857fe;
     color: #fff;
 }
@@ -266,7 +266,7 @@ h4{
 }
 
 
-.anime:active{
+.anime:active , .anime:hover{
     background: #7857fe;
     color: #fff;
 }
@@ -291,7 +291,7 @@ h4{
 }
 
 
-.music:active{
+.music:active , .music:hover{
     background: #7857fe;
     color: #fff;
 }
@@ -316,7 +316,7 @@ h4{
 }
 
 
-.simpsons:active{
+.simpsons:active , .simpsons:hover{
     background: #7857fe;
     color: #fff;
 }
