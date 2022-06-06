@@ -69,7 +69,7 @@ h4{
 
 .cars{
     text-decoration: none;
-    color: #000;
+    color: #fff;
     font-size: 18px;
     font-weight: 600;
     padding: 60px 30px;
@@ -80,23 +80,80 @@ h4{
     width: 200px;
     margin-top: 30px;
     text-align: center;
-    background-image: url(img/car.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/car.png);
     background-size:cover;
     transition: 0.5;
     cursor: pointer;
 }
 
-.cars:before{
-    background: rgba(0, 0, 0, 0.5)
-}
-.cars:hover{
-    background-color: #7857fe;
+
+.cars:active{
+    background: #7857fe;
     color: #fff;
 }
 
 .cars i{
-    color: #000;
+    color: #fff;
 }
+
+.black{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 60px 30px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    margin-top: 30px;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/black.png);
+    background-size:cover;
+    transition: 0.5;
+    cursor: pointer;
+}
+
+
+.black:active{
+    background: #7857fe;
+    color: #fff;
+}
+
+.black i{
+    color: #fff;
+}
+
+.animal{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 60px 30px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    margin-top: 30px;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/animal.jpg);
+    background-size:cover;
+    transition: 0.5;
+    cursor: pointer;
+}
+
+
+.animal:active{
+    background: #7857fe;
+    color: #fff;
+}
+
+.animal i{
+    color: #fff;
+}
+
 
 .categories{
     display: flex;
