@@ -14,6 +14,17 @@ body [data-aos-delay='3000'][data-aos].aos-animate,
 }
 
 
+/*custom scrollbar*/
+::-webkit-scrollbar {
+    width: 13px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #3e3e3e;
+    border-radius: 10px;
+    height: 10px;
+  }
+
 
 @font-face {
     font-family: 'BR-Firma';
@@ -34,7 +45,7 @@ body{
     /*overflow: hidden;*/
     background-color: #7857fe;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .container{
