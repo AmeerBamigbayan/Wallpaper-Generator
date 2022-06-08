@@ -30,17 +30,13 @@ image_array=[
     '29.jpg',
     '30.jpg',
     '31.jpg',
-    '32.jpg',
-    '33.jpg',
-    '34.jpg',
-    '35.jpg',
-    '36.jpg'
+    '32.jpg'
   ]
   
   function get_random_image(){
     random_index = Math.floor(Math.random() * image_array.length);
     selected_image = image_array[random_index]
-    document.getElementById('wallpaper').src = `./neon/img/${selected_image}`
+    document.getElementById('wallpaper').src = `./places/img/${selected_image}`
     image_array.splice(random_index, 1);
 
     if(image_array.length == 0){
@@ -76,11 +72,7 @@ image_array=[
         '29.jpg',
         '30.jpg',
         '31.jpg',
-        '32.jpg',
-        '33.jpg',
-        '34.jpg',
-        '35.jpg',
-        '36.jpg'
+        '32.jpg'
       ]
     }
 
