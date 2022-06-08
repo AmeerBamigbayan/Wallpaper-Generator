@@ -40,7 +40,7 @@ image_array=[
   function get_random_image(){
     random_index = Math.floor(Math.random() * image_array.length);
     selected_image = image_array[random_index]
-    document.getElementById('wallpaper').src = `./neon/img/${selected_image}`
+    document.getElementById('wallpaper').src = `./animal/img/${selected_image}`
     image_array.splice(random_index, 1);
 
     if(image_array.length == 0){
