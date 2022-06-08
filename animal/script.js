@@ -29,12 +29,7 @@ image_array=[
     '28.jpg',
     '29.jpg',
     '30.jpg',
-    '31.jpg',
-    '32.jpg',
-    '33.jpg',
-    '34.jpg',
-    '35.jpg',
-    '36.jpg'
+    '31.jpg'
   ]
   
   function get_random_image(){
@@ -75,12 +70,7 @@ image_array=[
         '28.jpg',
         '29.jpg',
         '30.jpg',
-        '31.jpg',
-        '32.jpg',
-        '33.jpg',
-        '34.jpg',
-        '35.jpg',
-        '36.jpg'
+        '31.jpg'
       ]
     }
 
