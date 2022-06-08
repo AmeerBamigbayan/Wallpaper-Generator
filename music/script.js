@@ -4,18 +4,18 @@ image_array=[
     '3.jpg',
     '4.jpg',
     '5.jpg',
-    '6.jpg',
+    '6.png',
     '7.jpg',
     '8.jpg',
     '9.jpg',
     '10.jpg',
-    '11.jpg',
+    '11.png',
     '12.jpg',
     '13.jpg',
     '14.jpg',
     '15.jpg',
     '16.jpg',
-    '17.jpg',
+    '17.png',
     '18.jpg',
     '19.jpg',
     '20.jpg',
@@ -34,13 +34,14 @@ image_array=[
     '33.jpg',
     '34.jpg',
     '35.jpg',
-    '36.jpg'
+    '36.jpg',
+    '37.jpg'
   ]
   
   function get_random_image(){
     random_index = Math.floor(Math.random() * image_array.length);
     selected_image = image_array[random_index]
-    document.getElementById('wallpaper').src = `./neon/img/${selected_image}`
+    document.getElementById('wallpaper').src = `./music/img/${selected_image}`
     image_array.splice(random_index, 1);
 
     if(image_array.length == 0){
@@ -50,18 +51,18 @@ image_array=[
         '3.jpg',
         '4.jpg',
         '5.jpg',
-        '6.jpg',
+        '6.png',
         '7.jpg',
         '8.jpg',
         '9.jpg',
         '10.jpg',
-        '11.jpg',
+        '11.png',
         '12.jpg',
         '13.jpg',
         '14.jpg',
         '15.jpg',
         '16.jpg',
-        '17.jpg',
+        '17.png',
         '18.jpg',
         '19.jpg',
         '20.jpg',
@@ -80,7 +81,8 @@ image_array=[
         '33.jpg',
         '34.jpg',
         '35.jpg',
-        '36.jpg'
+        '36.jpg',
+        '37.jpg'
       ]
     }
 
