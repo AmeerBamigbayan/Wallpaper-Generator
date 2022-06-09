@@ -335,26 +335,35 @@ h4{
 }
 
 .random{
-    text-decoration: none;
-    color: #fff;
+    color: #000;
     font-size: 18px;
     font-weight: 600;
-    padding: 60px 30px;
+    padding: 10px 30px;
     border: 1px solid #fff;
     border-radius: 10px;
     margin: 0 auto;
+    display: block;
     width: 200px;
-    margin-top: 10px;
+    margin-top: 30px;
     text-align: center;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/simpsons.jpg);
-    background-size:cover;
+    background-color: #7857fe;
     transition: 0.5;
     cursor: pointer;
+    text-decoration: none;
 }
 
 
+a, a .random{
+    text-decoration: none;
+    color: #fff;
+}
+
 .random:active , .random:hover{
-    background: #7857fe;
+    background-color: transparent;
+    color: #fff;
+}
+
+.random i{
     color: #fff;
 }
 
