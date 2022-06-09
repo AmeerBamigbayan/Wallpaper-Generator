@@ -37,6 +37,16 @@ body{
     align-items: center;
     margin-bottom: 50px;
 }
+/*custom scrollbar*/
+::-webkit-scrollbar {
+    width: 13px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #3e3e3e;
+    border-radius: 10px;
+    height: 10px;
+  }
 
 .container{
    position: relative;
