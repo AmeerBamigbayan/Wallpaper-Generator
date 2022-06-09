@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallpaper Generator by Ameer Bamigbayan</title>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+    </script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js">
+    </script>
+    <script src="https://kit.fontawesome.com/792e6d1a70.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="random/style.css"> 
+</head>
+<body>
+    <div class="container">
+        <h2>Random Wallpapers</h2>
+        <div onclick="get_random_image()" class="btn"><i class="fas fa-random"></i>Generate</div>
+            <img id="wallpaper"></img> 
+            <a download="wallpaper.jpg" onload = "autoClick();" id="download" target="_blank" ><i class="fas fa-download"></i>Download Wallpaper</a>
+            <footer>
+
+                <p>Built with &#10084 by<a href="https://ameerbamigbayan.com.ng" target="_blank"><span> Ameer Bamigbayan</span></a></p>
+            </footer>
+    </div>
+    <script type="text/javascript">   
+        function autoClick(){
+          $("#download").click();
+        }  
+  
+        $(document).ready(function(){
+          var element = $("#wallpaper");
+  
+          $("#download").on('click', function(){
+  
+            
+                $("#download").attr("href", element.attr("src"));
+              }
+            );
+            });
+        
+      </script>
+    <!-----<script>
+        function Download(selected_image) {
+            selected_image = image_array[random_index]
+            document.getElementById('download').src = `./img/${selected_image}`
+        }
+        </script>---->
+    <script src="random/script.js"></script>
+</body>
+</html> 
